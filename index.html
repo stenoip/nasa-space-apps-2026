@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.33.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.33.0/mapbox-gl.js"></script>
+    -->
     <title>Mars Scouts</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,750&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     
@@ -16,7 +20,7 @@
         
         <header>
             <!-- Will change to danger label in case of a dust storm-->
-             <img src="assets/magic-wand-icon.png" id="ai-icon">
+             <img src="assets/mart-with-a-map.png" id="ai-icon">
             <input id="ask-ai" placeholder="Ask Assistant">
         </header>
         
@@ -47,12 +51,18 @@
         <div id="about-box">
             <h1>About MarsScouts</h1>
             <p>Made by Amar'e Annan</p>
+            <img src="assets/mars-scouts-logo.png" height="100px" width="100%">
             <p>View more details about this project on: <a href="https://github.com/stenoip/nasa-space-apps-2026/blob/main/README.md">Github</a></p>
         </div>
 
         <div id="ice-info">
-            <h1 id="ice-info-title">Scouter</h1>
-            <p></p>
+            <div class="chat-heading">
+                <img src="assets/mart-the-scouter.png" id="mart-icon">
+                <h1 id="ice-info-title">Ask Mart the Scouter</h1>
+            </div>
+            <div id="chat-history" role="log" aria-live="polite" aria-label="Conversation history">
+                <p class="chat-empty">Use the assistant bar at the top to start a conversation.</p>
+            </div>
         </div>
           
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
