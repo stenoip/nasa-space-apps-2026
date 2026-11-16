@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.4/dist/leaflet.css">
+	<script type="importmap">
+		{"imports": {"leaflet": "https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.4/dist/leaflet.js"}}
+	</script>
+</head>
+<body>
+	<div id="map" style="height: 400px"></div>
+	<script type="module">
+		import {LeafletMap, TileLayer} from 'leaflet';
+		
+        var map = new LeafletMap("map");
+
+        map.setView([51.505, -0.09], 13);
+
+        new TileLayer('https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0//default/default028mm/{z}/{y}/{x}.jpg', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+	</script>
+<!--
+
+O.O.P
+    <script>
+
+
+        function config(statement) {
+            this.statement = statement;
+        }
+
+        config.prototype.ask = function() {
+            console.log("Why is " + this.statement + " true?" )     
+        };
+
+        config.prototype.state = function() {
+            console.log(this.statement + " is obviously true!" )     
+        };
+
+
+        var myStatement = new config("Hello");
+
+        myStatement.ask();
+        myStatement.state();
+
+    </script>
+
+-->
+</body>
+</html>
