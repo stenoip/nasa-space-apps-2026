@@ -6,4 +6,4 @@ Mars Scouts is designed to be a map tool for astronauts specifically investigati
 
 
 
-NOTICE: The README file is not complete! Fonts and Icons for Mars Scouts are still being designed for Mars Scouts. Expect the completion of the README file on **Wednesday 18th November 2026**!
+NOTICE: The README file is not complete! Fonts and Icons for Mars Scouts are still being designed for Mars Scouts. Expect the completion of the README file on **Thursday 19th November 2026**!
