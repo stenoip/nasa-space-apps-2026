@@ -1,4 +1,4 @@
-*** Welcome to Mars Scouts ***
+
 ![Alt text](assets/mars-scouts-logo.png)
 
 
