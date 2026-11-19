@@ -34,6 +34,6 @@ The Status Bar Weather Info is still based on real information:
 
 **How to Use**
 
-See Powerpoint presentation: [[website][an_awesome_website_link].
+See Powerpoint presentation: [Slides][an_awesome_website_link].
 
 [an_awesome_website_link]: https://docs.google.com/presentation/d/1BoyIZ30o4BWLvHN-JvWETo14JRg0FQsO/edit?usp=sharing&ouid=112152708245816027283&rtpof=true&sd=true
