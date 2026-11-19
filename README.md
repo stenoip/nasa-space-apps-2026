@@ -1,6 +1,8 @@
 
 ![Alt text](assets/mars-scouts-logo.png)
 
+Also see team page: [https://www.spaceappschallenge.org/2026/find-a-team/mars-scouts/?tab=project](https://www.spaceappschallenge.org/2026/find-a-team/mars-scouts/?tab=details)
+
 
 Mars Scouts is designed to be a map tool for astronauts specifically investigating on Mars's ancient bodies of water. It also keeps astronauts away from physical danger by using visual red radii across the map in rough terrain and including a thermal overlay.
 
@@ -32,6 +34,6 @@ The Status Bar Weather Info is still based on real information:
 
 **How to Use**
 
-See Powerpoint presentation: [website][an_awesome_website_link].
+See Powerpoint presentation: [[website][an_awesome_website_link].
 
-[an_awesome_website_link]: https://www.spaceappschallenge.org/2026/find-a-team/mars-scouts/?tab=project
+[an_awesome_website_link]: https://docs.google.com/presentation/d/1BoyIZ30o4BWLvHN-JvWETo14JRg0FQsO/edit?usp=sharing&ouid=112152708245816027283&rtpof=true&sd=true
