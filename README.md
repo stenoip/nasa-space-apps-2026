@@ -24,7 +24,8 @@ Do note the due to the environment, the following data was simulated:
   - Status bar Weather Info
   - Astronaut Movement
 
-The Status Bar Weather Info is still based on real information:
+The Status Bar Weather Info is still based on real information: 
+
   Source: https://www.nasa.gov/directorates/stmd/nasas-first-weather-report-from-jezero-crater-on-mars/
   
 
